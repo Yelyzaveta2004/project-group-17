@@ -1,0 +1,33 @@
+.reviews-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fbfbfb;
+
+}
+.reviews-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fbfbfb;
+}
+.reviews-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #040306;
+}
+.reviews-card-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(4, 3, 6, 0.4);
+}
