@@ -32,4 +32,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  background: #0e1823;
+}
+.container {
+  max-width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* стилі боді,контейнера,елементи які будуть повторюватись у всіх*/
