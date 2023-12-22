@@ -42,4 +42,28 @@ body {
   padding-right: 20px;
 }
 /* стилі боді,контейнера,елементи які будуть повторюватись у всіх*/
+/*від Антона Бугайчука
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Inter', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}*/
