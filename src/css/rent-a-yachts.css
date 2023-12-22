@@ -31,7 +31,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 11.7px;
+  line-height: 1.17px;
   padding: 18px 18px;
 }
 
@@ -59,7 +59,8 @@
   border-radius: 15px;
   background: #1b414b;
   padding: 14px 44px;
-  min-width: 122px;
+  width: 122px;
+  height: 46px;
   border: none;
   color: #fbfbfb;
   font-family: 'Inter', sans-serif;
@@ -70,4 +71,49 @@
   letter-spacing: -0.02em;
   margin-bottom: 80px;
   margin-top: 40px;
+}
+.rent-yacht-picture img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+/*=========== TABLET RENT A YACHT STYLE ========*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .rent-yacht-title {
+    font-size: 48px;
+    margin-left: 128px;
+  }
+  .rent-yacht-form {
+    max-width: 472px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rent-yacht-form-input {
+    width: 472px;
+    height: 54px;
+  }
+
+  .rent-yacht-form-input {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .rent-yacht-form-comment {
+    width: 472px;
+    height: 116px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .rent-yacht-button {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
