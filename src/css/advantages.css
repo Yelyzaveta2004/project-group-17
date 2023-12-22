@@ -1,0 +1,52 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list {
+  list-style-type: none;
+}
+
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.advantages-section{
+    max-width: 375px;
+    background: #0E1823;;
+}
+
+.advantages-list {
+  display: flex;
+  width: 335px;
+  padding: 80px 20px;
+  flex-direction: column;
+  margin: auto ;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #1b414b;
+  list-style-type: decimal-leading-zero;
+  opacity: 0.8;
+  
+}
+
+.advantages-item {
+  color: #fbfbfb;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 100% */
+  letter-spacing: -1.4px;
+}
