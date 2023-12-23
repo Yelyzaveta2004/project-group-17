@@ -20,7 +20,7 @@
     
     
     <script type="module" crossorigin src="/project-group-17/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-17/assets/index-6083ccd6.css">
+    <link rel="stylesheet" href="/project-group-17/assets/index-ea795b9b.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
@@ -169,7 +169,78 @@
                 </div>
             </section>
       
-      
+      <section class="rent-yacht-section" id="rent">
+  <div class="rent-yacht-container container">
+    <div class="rent-yacht-now">
+      <h2 class="rent-yacht-title">Rent a yacht now</h2>
+      <form class="rent-yacht-form">
+        <div class="rent-yacht-form-input-wrapper">
+          <input
+            class="rent-yacht-form-input"
+            id="user-name"
+            name="user-name"
+            type="text"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+            placeholder="Full Name"
+            required
+          />
+        </div>
+        <div class="rent-yacht-form-input-wrapper">
+          <input
+            class="rent-yacht-form-input"
+            id="user-email"
+            name="user-email"
+            type="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="rent-yacht-form-input-wrapper">
+          <input
+            class="rent-yacht-form-input"
+            id="user-phone"
+            name="user-phone"
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="Phone number"
+            required
+          />
+        </div>
+        <textarea
+          class="rent-yacht-form-comment"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Comment"
+        ></textarea>
+        <button class="rent-yacht-button" type="submit">Send</button>
+      </form>
+    </div>
+    <picture class="rent-yacht-picture">
+      <source
+        srcset="/project-group-17/assets/rent-yacht-desktop-1440-56c5acaa.jpg 1x, /project-group-17/assets/rent-yacht-desktop-1440@2x-67199982.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/project-group-17/assets/rent-yacht-desktop-1280-544f1928.jpg 1x, /project-group-17/assets/rent-yacht-desktop-1280@2x-ab5e7793.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/project-group-17/assets/rent-yacht-tablet-5965b3c1.jpg 1x, /project-group-17/assets/rent-yacht-tablet-5965b3c1.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/project-group-17/assets/rent-yacht-mobile-59d89572.jpg 1x, /project-group-17/assets/rent-yacht-mobile@2x-a59d2b0d.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="../img/rent-a-yacht/rent-yacht-mobile.jpg"
+        alt="photo of the rented yacht"
+      />
+    </picture>
+  </div>
+</section>
+
       <section class="section reviews">
     <div class="container reviews-container">
         <h2 class="reviews-title">YachtJet take pride in providing the best possible service and experience to our customers</h2>
