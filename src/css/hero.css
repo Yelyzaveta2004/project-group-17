@@ -1,38 +1,39 @@
 /*==================================HERO-MOBILE-STYLES=====================================*/
-.section-hero {
+.hero-section {
   background-color: #0e1823;
   background-image: url(../img/bg-img-hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 375px;
   background-position: center;
+  margin: 0 auto;
 }
 @media screen and (min-resolution: 192dpi) {
-  .section-hero {
+  .hero-section {
     background-image: url(../img/bg-img-hero-mobile@2x.jpg);
   }
 }
-.section-hero-text {
+.hero-section-text {
   color: #fbfbfbb3;
   text-align: center;
   font-family: Inter;
   font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  line-height: 14px; /* 116.667% */
+  line-height: 1.16; /* 116.667% */
 }
-.section-hero-title {
+.hero-section-title {
   color: #fbfbfb;
   text-align: center;
   font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 100% */
-  letter-spacing: -0.64px;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
-.section-hero-button {
+.hero-section-button {
   min-width: 141px;
   height: 46px;
   border-radius: 15px;
@@ -43,8 +44,8 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
-  letter-spacing: -0.28px;
+  line-height: 1.28; /* 128.571% */
+  letter-spacing: -0.02em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -52,12 +53,12 @@
   margin-top: 48px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-hero-button:hover,
-.section-hero-button:focus {
+.hero-section-button:hover,
+.hero-section-button:focus {
   background-color: #fbfbfb;
   color: #1b414b;
 }
-.section-hero-container {
+.hero-section-container {
   padding-top: 260px;
   padding-bottom: 243px;
   padding-left: 20px;
@@ -65,32 +66,32 @@
 }
 /*==================================HERO-TABLET-STYLES=====================================*/
 @media screen and (min-width: 768px) {
-  .section-hero {
+  .hero-section {
     background-image: url(../img/bg-img-hero-tablet.jpg);
     max-width: 768px;
   }
   @media screen and (min-resolution: 192dpi) {
-    .section-hero {
+    .hero-section {
       background-image: url(../img/bg-img-hero-tablet@2x.jpg);
     }
   }
-  .section-hero-text {
+  .hero-section-text {
     font-size: 16px;
-    line-height: 140%; /* 22.4px */
+    line-height: 1.4; /* 22.4px */
   }
-  .section-hero-title {
+  .hero-section-title {
     font-size: 70px;
-    line-height: 70px; /* 100% */
-    letter-spacing: -1.4px;
+    line-height: 1; /* 100% */
+    letter-spacing: -0.02em;
   }
-  .section-hero-button {
+  .hero-section-button {
     min-width: 179px;
     height: 52px;
     font-size: 18px;
-    line-height: 110%; /* 19.8px */
-    letter-spacing: -0.36px;
+    line-height: 1.1; /* 19.8px */
+    letter-spacing: -0.02em;
   }
-  .section-hero-container {
+  .hero-section-container {
     padding-top: 280px;
     padding-bottom: 215px;
     padding-left: 32px;
@@ -99,21 +100,21 @@
 }
 /*==================================HERO-DESKTOP-STYLES=====================================*/
 @media screen and (min-width: 1280px) {
-  .section-hero {
+  .hero-section {
     background-image: url(../img/bg-img-hero-decktop.jpg);
     max-width: 1280px;
   }
   @media screen and (min-resolution: 192dpi) {
-    .section-hero {
+    .hero-section {
       background-image: url(../img/bg-img-hero-desktop@2x.jpg);
     }
   }
-  .section-hero-title {
+  .hero-section-title {
     font-size: 80px;
-    line-height: 80px; /* 100% */
-    letter-spacing: -1.6px;
+    line-height: 1; /* 100% */
+    letter-spacing: -0.02em;
   }
-  .section-hero-container {
+  .hero-section-container {
     padding-top: 235px;
     padding-bottom: 180px;
     padding-left: 140px;
@@ -122,17 +123,17 @@
 }
 /*==================================HERO-DESKTOP-1440-STYLES=====================================*/
 @media screen and (min-width: 1440px) {
-  .section-hero {
+  .hero-section {
     background-image: url(../img/bg-img-hero-decktop1440.jpg);
     max-width: 1440px;
   }
   @media screen and (min-resolution: 192dpi) {
-    .section-hero {
+    .hero-section {
       background-image: url(../img/bg-img-hero-desktop1440@2x.jpg);
     }
   }
 
-  .section-hero-container {
+  .hero-section-container {
     padding-top: 235px;
     padding-bottom: 180px;
     padding-left: 220px;
