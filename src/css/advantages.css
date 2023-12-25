@@ -66,18 +66,13 @@ ol {
   line-height: 28px;
   letter-spacing: -1.4px;
   margin-bottom: 18px;
+  border-bottom: 2px solid rgba(251, 251, 251, 0.1);
+  border-radius: 2px;
+  max-width: 295px;
+  padding-bottom: 18px;
   opacity: 1;
 }
 
-.advantages-line {
-  display: block;
-  margin-bottom: 18px;
-  width: 100%;
-  height: 2px;
-  flex-shrink: 0;
-  border-radius: 18px;
-  background: rgba(251, 251, 251, 0.1);
-}
 
 .advantages-picture img {
   border-radius: 25px;
@@ -87,11 +82,9 @@ ol {
 }
 
 @media screen and (min-width: 768px) {
-
-  .advantages-section{
+  .advantages-section {
     padding-top: 75px;
     padding-bottom: 75px;
-
   }
 
   .advantages-container {
@@ -105,10 +98,15 @@ ol {
     column-gap: 32px;
     max-width: 704px;
     height: 424px;
+    padding: 90px 32px;
   }
 
   .advantages-item {
     width: calc((100% - 32px) / 2);
+  }
+
+  .advantages-number {
+    max-width: 304px;
   }
 
   .advantages-picture img {
@@ -123,6 +121,11 @@ ol {
 
   .advantages-list {
     max-width: 716px;
+    padding: 90px 50px;
+  }
+
+  .advantages-number {
+    max-width: 280px;
   }
 
   .advantages-container {
@@ -131,24 +134,26 @@ ol {
     gap: 32px;
   }
 
- .advantages-picture img {
+  .advantages-picture img {
     width: 432px;
   }
-  
-
 }
 
-@media screen and (min-width:1440px){
-.advantages-container {
+@media screen and (min-width: 1440px) {
+  .advantages-container {
     min-width: 1340px;
   }
 
- .advantages-list {
+  .advantages-list {
     max-width: 768px;
+    padding: 90px 50px;
   }
 
-.advantages-picture img {
+  .advantages-number {
+    max-width: 318px;
+  }
+
+  .advantages-picture img {
     width: 540px;
   }
-
 }
