@@ -1,7 +1,6 @@
-.head {
-  padding: 20px 0;
+.header {
   position: absolute;
-  top: 20px;
+  top: 32px;
   width: 100%;
 }
 
@@ -13,6 +12,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  padding-right: 12px;
 }
 /* ховаємо мобільне меню для десктопу та пленшетів */
 .mobile-menu {
@@ -120,6 +120,7 @@
     width: 335px;
     height: 42px;
     padding-right: 20px;
+    padding-left: 20px;
   }
   /* .head-container {
     width: 335px;
@@ -128,7 +129,7 @@
   .head-logo {
     font-size: 14px;
     letter-spacing: -0.02em;
-    margin-left: 20px;
+    
   }
   .nav-ul {
     display: none;
@@ -261,49 +262,36 @@
   line-height: 0;
 }
 
-/* .mobile-button {
-    display: flex;
-    width: 28px;
-    height: 28px;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    line-height: 0;
-    margin-top: 7px;
-    margin-right: 20px;
-  } */
-/* .mobile-button-icon {
-    stroke: #1b414b;
-  } */
+
 @media (min-width: 768px) {
-  .head {
+  .header {
     padding-left: 32px;
     padding-right: 32px;
   }
   .head-container {
     width: 704px;
     height: 48px;
+    padding-left: 28px;
+    padding-right: 12px;
   }
   .head-logo {
-    margin-left: 28px;
+    
     margin-right: 109px;
-  }
-  .nav-ul {
-    margin-right: 96px;
-  }
-  .head-social-links-ul {
-    margin-right: 12px;
   }
 }
 @media (min-width: 1280px) {
   .head-container {
     width: 1080px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .head-logo {
-    margin-left: 30px;
     margin-right: 296px;
   }
-  .nav-ul {
-    margin-right: 281px;
+}
+@media (min-width: 1280px) {
+  .head-container{
+    width: 1240px;
   }
+
 }
