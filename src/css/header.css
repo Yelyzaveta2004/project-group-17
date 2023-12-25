@@ -115,16 +115,11 @@
   background-color: #FBFBFB;
   border: 1px solid #FBFBFB;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 335px;
   height: 42px;
   padding-right: 20px;
 }
-  /* .head-container {
-    width: 335px;
-    height: 42px;
-  } */
   .head-logo {
     font-size: 14px;
     letter-spacing: -0.02em;
