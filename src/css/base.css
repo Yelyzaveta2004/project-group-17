@@ -42,6 +42,12 @@ body {
   padding-right: 20px;
 }
 
+
+li {
+  line-height: 0px;/* Вадим Дученко */
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
