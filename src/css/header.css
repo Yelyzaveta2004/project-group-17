@@ -129,7 +129,6 @@
   .head-logo {
     font-size: 14px;
     letter-spacing: -0.02em;
-    
   }
   .nav-ul {
     display: none;
@@ -262,7 +261,6 @@
   line-height: 0;
 }
 
-
 @media (min-width: 768px) {
   .header {
     padding-left: 32px;
@@ -275,7 +273,6 @@
     padding-right: 12px;
   }
   .head-logo {
-    
     margin-right: 109px;
   }
 }
@@ -289,9 +286,8 @@
     margin-right: 296px;
   }
 }
-@media (min-width: 1280px) {
-  .head-container{
+@media (min-width: 1440px) {
+  .head-container {
     width: 1240px;
   }
-
 }
