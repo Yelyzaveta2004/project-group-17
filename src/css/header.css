@@ -116,9 +116,9 @@
   border: 1px solid #FBFBFB;
   display: flex;
   align-items: center;
-  width: 335px;
+  justify-content: space-between;
+  max-width: 335px;
   height: 42px;
-  padding-right: 20px;
 }
   .head-logo {
     font-size: 14px;
@@ -142,6 +142,7 @@
       position: relative;
       width: 28px;
       height: 28px;
+      margin-right: 20px;
     }
       .mobile-button-item:first-child 
       {
@@ -272,8 +273,9 @@
     {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    align-items: center;
     line-height: 0;
+    gap: 8px;
     }
 @media (min-width: 768px) {
   .head {
