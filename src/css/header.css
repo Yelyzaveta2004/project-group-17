@@ -35,9 +35,11 @@
   display: flex;
   border-radius: 8px;
   background-color: rgba(27, 65, 75, 0.5);
+  transition: background-color 250ms;
 }
 
-.about:hover {
+.nav-list:hover,
+.nav-list:focus {
   background-color: #1b414b;
 }
 
@@ -119,11 +121,11 @@
   width: 335px;
   height: 42px;
   padding-right: 20px;
+  padding-left: 20px;
 }
   .head-logo {
     font-size: 14px;
     letter-spacing: -0.02em;
-    margin-left: 20px;
   }
   .nav-ul {
     display: none;
@@ -298,28 +300,32 @@
   {
     width: 704px;
     height: 48px;
+    padding-left: 30px;
+    padding-right: 28px;
   }
   .head-logo {
-    margin-left: 28px;
     margin-right: 109px;
   }
   .nav-ul {
     margin-right: 96px;
   }
-  .head-social-links-ul{
-    margin-right: 12px;
-  }
 }
 @media (min-width: 1280px) {
   .head-container {
     width: 1080px;
+    padding-right: 30px;
   }
   .head-logo {
-    margin-left: 30px;
     margin-right: 296px;
   }
   .nav-ul {
     margin-right: 281px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .head-container{
+    width: 1240px;
   }
   .head-logo{
     margin-right: 375px;
