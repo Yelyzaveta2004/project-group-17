@@ -1,14 +1,12 @@
 .section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
     background-color: rgba(14, 24, 35, 1);
 }
 .container {
     max-width: 375px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    
 }
 .reviews-title {
     margin-bottom: 25px;
