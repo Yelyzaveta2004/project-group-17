@@ -126,6 +126,7 @@
     width: 335px;
     height: 42px;
   } */
+
   .head-logo {
     font-size: 14px;
     letter-spacing: -0.02em;
@@ -269,11 +270,16 @@
   .head-container {
     width: 704px;
     height: 48px;
+
     padding-left: 28px;
     padding-right: 12px;
+
   }
   .head-logo {
     margin-right: 109px;
+  }
+  .nav-ul {
+    margin-right: 96px;
   }
 }
 @media (min-width: 1280px) {
@@ -289,5 +295,14 @@
 @media (min-width: 1440px) {
   .head-container {
     width: 1240px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .head-container{
+    width: 1240px;
+  }
+  .head-logo{
+    margin-right: 375px;
   }
 }
