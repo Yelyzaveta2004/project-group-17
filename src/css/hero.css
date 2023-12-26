@@ -124,7 +124,7 @@
 /*==================================HERO-DESKTOP-1440-STYLES=====================================*/
 @media screen and (min-width: 1440px) {
   .hero-section {
-    background-image: url(../img/bg-img-hero-decktop1440.jpg);
+    background-image: url(../img/bg-img-hero-desktop1440.jpg);
     max-width: 1440px;
   }
   @media screen and (min-resolution: 192dpi) {
