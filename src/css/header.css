@@ -164,7 +164,7 @@
         transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
       }
               
-      .mobile-button.active> .mobile-button-item:first-child
+      .mobile-button.active>:first-child
       {
         width: 16px;
         left: 6px;
@@ -173,7 +173,7 @@
         color: rgba(5, 85, 69, 1);
       }
               
-      .mobile-button.active> .mobile-button-item:last-child
+      .mobile-button.active>:last-child
       {
        width: 16px;
        left: 6px;
