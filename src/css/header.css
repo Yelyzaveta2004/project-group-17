@@ -94,7 +94,8 @@
   fill: #1b414b;
 }
 
-.head-icon:hover {
+.head-icon:hover
+.head-icon:focus {
   fill: #062730;
 }
 
