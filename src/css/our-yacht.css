@@ -153,10 +153,6 @@
       max-width: 768px;
   }
 
-  .our-yachts-title-style {
-    margin-bottom: 75px;
-  }
-
   .our-yachts-cards {
       gap: 32px;
       max-width: 704px;
@@ -167,7 +163,7 @@
       font-size: 48px;
       font-weight: 500;
       line-height: 1;
-      margin-bottom: 25px;
+      margin-bottom: 75px;
   }
 
   .our-yachts-card-shell {
