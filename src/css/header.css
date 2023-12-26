@@ -10,8 +10,8 @@
   border-radius: 8px;
   border: 1px solid #fbfbfb;
   background-color: #fbfbfb;
+  justify-content: space-between;
   display: flex;
-  justify-content: center;
   margin: 0 auto;
 }
 /* ховаємо мобільне меню для десктопу та пленшетів */
@@ -21,8 +21,8 @@
 }
 .head-nav {
   display: flex;
-  margin-right: auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-ul {
@@ -166,7 +166,7 @@
         transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
       }
               
-      .mobile-button.active>.mobile-button-item:first-child
+      .mobile-button.active>:first-child
       {
         width: 16px;
         left: 6px;
@@ -175,12 +175,13 @@
         color: rgba(5, 85, 69, 1);
       }
               
-      .mobile-button.active>.mobile-button-item:last-child
+      .mobile-button.active>:last-child
       {
        width: 16px;
        left: 6px;
        top: 50%;
        transform: rotate(-135deg);
+       color: rgba(5, 85, 69, 1);
       }
     }
   .mobile-menu 
@@ -276,21 +277,6 @@
     gap: 8px;
     line-height: 0;
     }
-
-  /* .mobile-button {
-    display: flex;
-    width: 28px;
-    height: 28px;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    line-height: 0;
-    margin-top: 7px;
-    margin-right: 20px;
-  } */
-  /* .mobile-button-icon {
-    stroke: #1b414b;
-  } */
 @media (min-width: 768px) {
   .head {
     padding-left: 32px;
