@@ -92,9 +92,11 @@
 
 .head-icon {
   fill: #1b414b;
+  transition: fill 250ms ease;
 }
 
-.head-icon:hover {
+.head-icon:hover,
+.head-icon:focus {
   fill: #062730;
 }
 
